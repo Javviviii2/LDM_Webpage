@@ -1,0 +1,106 @@
+main {
+   background-image: url(../img/bio_background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+   padding: 2%;
+}
+
+header {
+   display: flex;
+   height: 150px;
+   background-image: linear-gradient(#f2778D, #F24B88);
+   border-radius: 15px;
+   align-items: center;
+   justify-content: center;
+}
+q {
+   font-size: 40px;
+   font-family: 'Pacifico', cursive;
+}
+li {
+   font-size: 20px;
+}
+
+.bio {
+   display: grid;
+   grid-template-columns: auto;
+}
+.bio div {
+   text-align: justify;
+   line-height: 50px;
+   font-size: 30px;
+   padding: 2%;
+}
+.bio h3{
+   text-align: center;
+}
+.awards{
+   background-color: rgba(0, 0, 0, 0.2);
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.awards h5 {
+   text-align: center;
+   background-color: rgba(255, 255, 255);
+}
+.bio p{
+   text-indent: 40px;
+}
+.karen{
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+#karen {
+   grid-column: 2;
+   border-radius: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.video{
+   display: flex;
+   justify-content: center;
+}
+iframe{
+   margin-top: 4%; 
+   width: 70%;
+   height: 600px;
+}
+
+
+@media screen and (max-width: 850px) {
+   iframe{
+      width: 100%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .awards{
+      display: block;
+   }
+   q {
+      font-size: 30px;
+      text-align: center;
+   }
+   .karen{
+      justify-content: center;
+      align-items: center;
+   }
+   #karen{
+      height: 60%;
+   }
+   .bio div{
+      font-size: 20px;
+      line-height: normal;
+   }
+   .awards{
+      width: 95%;
+   }
+   .awards h5{
+      font-size: 20px;
+   }
+   iframe{
+      width: 100%;
+   }
+}

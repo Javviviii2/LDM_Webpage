@@ -1,0 +1,65 @@
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    background-color: black;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+    display: block;
+  }
+  .topnav.responsive .icon  {
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

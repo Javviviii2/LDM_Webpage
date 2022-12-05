@@ -1,0 +1,52 @@
+
+.hero{
+   width: 60%;
+   display: grid;
+   grid-template-columns: 40% auto;
+   border-radius: 15px;
+   box-shadow: 15px 15px 15px  10px lightblue;
+   margin-top: 3%;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: space-between;
+}
+.hero_img{
+   grid-template-columns: 2;
+   background-image: url('../img/karennoback.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 350px;
+   width: 300px;
+   border-radius: 15px;
+}
+
+.hero_text{
+   grid-template-columns: 1;
+   text-align: center;
+   margin-top: 20%;
+   margin-left: 10%;
+}
+h1{
+   font-size: 30px;
+}
+q {
+   font-size: 30px;
+   font-family: 'Pacifico', cursive;
+
+}
+@media screen and (max-width: 600px) {
+   .hero {
+      width: auto;
+      grid-template-columns: auto;
+      justify-content: center;
+      justify-items: center;
+   }
+   .hero_text{
+      margin-top: 0%;
+      margin-left: 0%;
+   }
+   .hero_img{
+      border-radius: 0px;
+   }
+}

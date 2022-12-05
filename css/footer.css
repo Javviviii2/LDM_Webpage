@@ -1,0 +1,18 @@
+footer{
+   box-sizing: border-box;
+   margin: 3%;
+   text-align: center;
+   background-color: rgb(233, 151, 151);
+   height: 250px;
+}
+h2{
+   font-size: 40px;
+   border-bottom-style: dotted;
+}
+.contacto{
+   padding: 1%;
+}
+
+footer p{
+   font-size: 20px;
+}
