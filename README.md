@@ -1,1 +1,1 @@
-# Karen-Sp-rck-Jones
+Karen Spärck Jones
